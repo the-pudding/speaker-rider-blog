@@ -28,7 +28,7 @@ body {
 	line-height: 1.4;
   word-wrap: break-word;
   color: var(--text-main);
-	background: var(--background-body);
+	background: var(--off-white);
 	font-family: var(--body-font);
 	text-rendering: optimizeLegibility;
 	font-feature-settings: 'kern' 1, 'onum' 0, 'liga' 0, 'tnum' 1;
