@@ -240,7 +240,7 @@ a {
   color: var(--links);
 }
 a:hover {
-
+  color: var(--gray-dark);
 }
 img,
 video {

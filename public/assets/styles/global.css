@@ -75,3 +75,7 @@
 	width: 1em;
 	vertical-align: middle;
 }
+
+span.insert {
+	font-weight: 700;
+}

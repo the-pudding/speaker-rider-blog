@@ -48,8 +48,10 @@
     h2 {
         font-family: var(--serif-hed);
         font-weight: 700;
-        padding: 2rem 0 0 0;
+        padding: 1rem 0 0 0;
         font-size: 2.25rem;
+        border-top: 1px solid var(--gray-light);
+        margin: 4rem 0 0 0;
     }
 
     h3 {

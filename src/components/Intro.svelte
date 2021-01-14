@@ -7,6 +7,7 @@
     {#each copy.intro as intro}
         <p>{@html intro.value}</p>
     {/each}
+    <a class="refer" href="" target=_blank>{@html copy.riderLink}</a>
 </section>
 
 <style>
@@ -32,5 +33,23 @@
         font-size: 1.15rem; 
         line-height: 1.5;
         padding: 0.5rem 0;
+    }
+
+    .refer {
+        margin: 2rem auto 4rem auto;
+        max-width: 16rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: var(--purple);
+        color: var(--white);
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding: 0.75rem 1rem;
+        border-radius: 0.25rem;
+    }
+
+    .refer:hover {
+        background-color: var(--gray-dark);
     }
 </style>
