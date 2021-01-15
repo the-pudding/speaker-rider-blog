@@ -43,6 +43,7 @@
     #speakers {
         max-width: 40rem;
         margin: 0 auto;
+        padding: 0 1rem;
     }
 
     h2 {
@@ -84,6 +85,7 @@
         font-family: var(--serif);
         font-size: 1.15rem; 
         line-height: 1.5;
+        padding: 0 0 0 1rem;
     }
 
     li {
@@ -97,5 +99,35 @@
 
     .insert {
         font-weight: 700;
+    }
+
+    @media only screen and (max-width: 620px) {
+        h2 {
+            font-size: 1.75rem;
+        }
+
+        h3 {
+            font-size: 1.25rem; 
+            padding: 1.5rem 0 0 0; 
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem; 
+            padding: 1rem 0 0 0; 
+        }
+        
+        p {
+            font-size: 1rem;
+        }
+
+        ul {
+            font-size: 1rem; 
+        }
     }
 </style>

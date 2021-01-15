@@ -14,7 +14,7 @@
     #intro {
         max-width: 50rem;
         margin: 0 auto;
-        padding: 2rem 0 0 0;
+        padding: 1rem 1rem 0 1rem;
     }
 
     h1 {
@@ -51,5 +51,27 @@
 
     .refer:hover {
         background-color: var(--gray-dark);
+    }
+
+    @media only screen and (max-width: 620px) {
+        h1 {
+            font-size: 3rem;
+            padding: 0 0 1rem 0;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        h1 {
+            font-size: 2rem;
+        }
+        
+        p {
+            font-size: 1rem;
+        }
+
+        .refer {
+            font-size: 1rem;
+            max-width: 12rem;
+        }
     }
 </style>
