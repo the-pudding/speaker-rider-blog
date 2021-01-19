@@ -9,15 +9,9 @@
     {#each copy.backstoryText as backstoryText}
         <p>{@html backstoryText.value}</p>
     {/each}
-    <div class="acknowledgements">
-        <div class="logos">
-            <a href="https://opennews.org/"><img src="assets/images/open-news-2017.png" alt="Open News logo"></a>
-            <a href="https://pudding.cool">{@html wordmark}</a>
-        </div>
-        {#each copy.acknowledgments as acknowledgments}
-            <p>{@html acknowledgments.value}</p>
-        {/each}
-    </div>
+    {#each copy.acknowledgments as acknowledgments}
+        <p class='acknowledgements'>{@html acknowledgments.value}</p>
+    {/each}
 </section>
 
 <style>
@@ -48,25 +42,14 @@
         font-family: var(--sans);
     }
 
-    .acknowledgements p {
+    .acknowledgements{
         font-family: var(--sans);
         color: var(--gray-dark);
         font-size: 1rem;
-        text-align: center;
-    }
-
-    .logos {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 4rem 0 0 0;
-    }
-
-    .logos a {
-        width: 12rem;
-        padding: 0 1rem;
-        background: none;
+        font-style: italic;
+        border-top: 1px solid var(--gray-light);
+        margin: 2rem 0 0 0;
+        padding: 1rem 0 0 0; 
     }
 
     @media only screen and (max-width: 620px) {
@@ -74,7 +57,7 @@
             font-size: 1.75rem;
         }
 
-        .acknowledgements p {
+        .acknowledgements {
             font-size: 0.75rem;
         }
     }

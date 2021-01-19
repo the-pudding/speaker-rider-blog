@@ -4,15 +4,17 @@
 
 <section id="intro">
     <h1>{copy.hed}</h1>
+    <h2>{copy.dek}</h2>
+    <p class="credit">{@html copy.credit}</p>
     {#each copy.intro as intro}
         <p>{@html intro.value}</p>
     {/each}
-    <a class="refer" href="" target=_blank>{@html copy.riderLink}</a>
+    <a class="refer" href="https://opennews.org/speaker-rider4" target=_blank>{@html copy.riderLink}</a>
 </section>
 
 <style>
     #intro {
-        max-width: 50rem;
+        max-width: 55rem;
         margin: 0 auto;
         padding: 1rem 1rem 0 1rem;
     }
@@ -21,9 +23,29 @@
         font-family: var(--serif-hed);
         font-size: 4em;
         line-height: 1;
-        padding: 0 0 2rem 0;
+        padding: 0 0;
         text-align: center;
         font-weight: 700;
+    }
+
+    h2 {
+        text-align: center;
+        max-width: 40rem;
+        margin: 0 auto; 
+        padding: 0 0 3rem 0; 
+    }
+
+    .credit {
+        font-family: var(--sans);
+        max-width: 30rem;
+        color: var(--gray-dark);
+        font-size: 1rem;
+        text-align: center;
+        font-style: italic;
+        padding: 1rem 0; 
+        margin-bottom: 3rem;
+        border-top: 1px solid var(--gray-light);
+        border-bottom: 1px solid var(--gray-light);
     }
 
     p {
@@ -63,6 +85,11 @@
     @media only screen and (max-width: 480px) {
         h1 {
             font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            padding: 0 0 2rem 0;
         }
         
         p {

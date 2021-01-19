@@ -97,6 +97,10 @@
         font-weight: 700;
     }
 
+    li::marker {
+        color: var(--purple);
+    }
+
     .insert {
         font-weight: 700;
     }
