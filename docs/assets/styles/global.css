@@ -1,7 +1,7 @@
 :root {
 	--sans: "National 2 Web", Helvetica, Arial, sans-serif;
 	--serif: "Tiempos Text Web", Georgia, Times, serif;
-	--serif-hed: "Tiempos Headline Web", "Tiempos Text Web", Georgia, Times, serif;
+	--serif-hed: "Tiempos Headline Web Bold", "Tiempos Text Web", Georgia, Times, serif;
 	--mono: Menlo, Consolas, Monaco, "Courier New", monospace;
 	
 	--z-bottom: -100;
