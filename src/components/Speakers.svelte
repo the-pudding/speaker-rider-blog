@@ -48,7 +48,7 @@
 
     h2 {
         font-family: var(--serif-hed);
-        font-weight: 700;
+        font-weight: 900;
         padding: 1rem 0 0 0;
         font-size: 2.25rem;
         border-top: 1px solid var(--gray-light);
@@ -57,7 +57,7 @@
 
     h3 {
         font-family: var(--serif-hed);
-        font-weight: 700;
+        font-weight: 900;
         padding: 2rem 0 0 0;
         font-size: 1.5rem;
     }
@@ -116,7 +116,7 @@
         }
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 500px) {
         h2 {
             font-size: 1.5rem;
         }

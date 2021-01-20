@@ -62,7 +62,7 @@
         }
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 500px) {
         h2 {
             font-size: 1.5rem;
         }
