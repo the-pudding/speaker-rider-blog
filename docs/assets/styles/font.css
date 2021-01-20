@@ -130,9 +130,9 @@
 
 @font-face {
 	font-family: 'Tiempos Headline Web';
-	src: url('../pudding-fonts/tiempos/TiemposHeadlineWeb-Regular.woff2') format('woff2'),
-	url('../pudding-fonts/tiempos/TiemposHeadlineWeb-Regular.woff') format('woff');
-	font-weight: 700;
+	src: url('../pudding-fonts/tiempos/TiemposHeadlineWeb-Black.woff2') format('woff2'),
+	url('../pudding-fonts/tiempos/TiemposHeadlineWeb-Black.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 	font-stretch: normal;
 	font-display: swap;

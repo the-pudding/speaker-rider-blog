@@ -1,7 +1,7 @@
 :root {
 	--sans: "National 2 Web", Helvetica, Arial, sans-serif;
 	--serif: "Tiempos Text Web", Georgia, Times, serif;
-	--serif-hed: "Tiempos Headline Web Bold", "Tiempos Text Web", Georgia, Times, serif;
+	--serif-hed: "Tiempos Headline Web", "Tiempos Text Web", Georgia, Times, serif;
 	--mono: Menlo, Consolas, Monaco, "Courier New", monospace;
 	
 	--z-bottom: -100;
@@ -66,6 +66,10 @@
 }
 
 /* pudding */
+.wordmark a {
+	background-image: none;
+}
+
 .wordmark svg path {
 	fill: currentColor;
 }
@@ -78,4 +82,14 @@
 
 span.insert {
 	font-weight: 700;
+}
+
+.credit a, .acknowledgements a {
+	color: var(--gray-dark);
+}
+
+
+
+.credit a:hover, .acknowledgements a:hover {
+	color: var(--off-white);
 }
