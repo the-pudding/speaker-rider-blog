@@ -93,3 +93,7 @@ span.insert {
 .credit a:hover, .acknowledgements a:hover {
 	color: var(--off-white);
 }
+
+footer a {
+	background-image: none;
+}
