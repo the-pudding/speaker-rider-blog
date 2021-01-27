@@ -17,6 +17,7 @@
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
+  <meta property="og:image:alt" content="A graphic with numbers 1-10 and the words 'Blog how to use Speaker Rider for Meaningfully Inclusive Events' overlaid on top of an image of an event audience" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="https://pudding.cool" />
@@ -24,6 +25,7 @@
   <meta name="twitter:title" content="We created a speaker rider because journalism didn’t have one" />
   <meta name="twitter:description" content="Organizers, speakers, and attendees need to all work together to make events more inclusive." />
   <meta name="twitter:image:src" content="https://pudding.cool/process/speaker-rider/assets/images/social-twitter.jpg" />
+  <meta name="twitter:image:alt" content="A graphic with numbers 1-10 and the words 'Blog how to use Speaker Rider for Meaningfully Inclusive Events' overlaid on top of an image of an event audience">
 
   <meta name="robots" content="max-image-preview:large" />
 
